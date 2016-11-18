@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Microsoft Yahei";
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../icon/iconfont.eot'); /* IE9*/
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:50px;
+    font-style:normal;
+    color: #fff;
+    margin-left: 20px;
+    float: left;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+#all {
+    margin: 0 auto;
+}
+#header {
+    width: 100%;
+    height: 85px;
+    box-shadow: 0 0 7px #C6C6C6;
+}
+#headerDiv {
+    margin: 0 auto;
+    width: 954px;
+    height: 85px;
+}
+#logo {
+    float: left;
+    margin-top: 28px;
+    width: 139px;
+    height: 33px;
+}
+#logOrSign {
+    width: 600px;
+    height: 14px;
+    float: right;
+    margin-top: 10px;
+}
+#login {
+    float: right;
+    font-size: 14px;
+    font-weight: 100;
+    color: #999999;
+}
+#login a {
+    font-size: 14px;
+    color: #999999;
+    font-weight: 100;
+}
+#login a:hover {
+    color: red;
+}
+#headA {
+    float: right;
+    width: 600px;
+    height: 27px;
+    margin-top: 19px;
+}
+#headA div {
+    float: left;
+    margin-left: 20px;
+    
+    height: 27px;
+
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+#headA div:hover {
+    background-color: #43be7a;
+    color: #fff;
+}
+#index,
+#video,
+#article,
+#yuanwei {
+    color: #43be7a;
+    width: 76px;
+}
+#photo {
+    color: #43be7a;
+    width: 76px;
+}
+#book {
+    width: 100px;
+    
+    background-color: #43be7a;
+    color: #fff;
+}
+#footer {
+    width: 100%;
+    height: 167px;
+    background-color: #333333;
+}
+#footMain {
+    width: 954px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+#contact {
+    width: 360px;
+    height: inherit;
+    float: left;
+}
+#contact a {
+    font-size: 13px;
+    line-height: 27px;
+    color: #999999;
+}
+#contact a:hover {
+    color: #fff;
+}
+#footIcon {
+    float: left;
+    width: 215px;
+    height: 50px;
+}
+#addition {
+    width: 325px;
+    height: inherit;
+    /*margin-left: 60px;*/
+    float: right;
+}
+#addition p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #999999;
+}
+
+
+
+#container {
+    width: 100%;
+    height: 1010px;
+}
+#centermain{
+    margin: 0 auto;
+    height: 1010px;
+    width: 960px;
+   
+}
+.top{
+    height: 32px;
+    width: 960px;
+}
+#center{
+    height: 1010px;
+    width: 960px;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+    width: 682px;
+    height: 1010px;
+}
+
+.line1{
+    height: 0px;
+    width: 678px;
+    border: 1px;
+    border-style:solid;
+    border-color:#efefef;
+}
+.line2{
+    height: 0px;
+    width: 678px;
+    border: 1px;
+    border-style:solid;
+    border-color:#efefef;
+}
+.bookabout{
+    height: 198px;
+    width: 782px;
+}
+#one{
+    height: 198px;
+    width: 121px;
+    float: left;
+}
+#one span{
+    height: 28px;
+    width: 88px;
+}
+#one span p{
+    color: #ff894f;
+    font-size: 20px;
+}
+.pic{
+    height: 170px;
+    width: 121px;
+    position: relative;
+    top: 12px;  
+}
+#two{
+    height: 198px;
+    width: 196px;
+    float: left;
+}
+
+.xing4{
+    height: 60px;
+    width: 196px;
+    float: left;
+    
+}
+.xing4 img{
+     position: relative;
+     top: 30px;
+}
+.xing4 span{
+    position: relative;
+    top: 27px;
+}
+
+
+.wen1{
+    height: 116px;
+    width: 196px;
+    position: relative;
+}
+.wen1 p{
+    font-size: 13px;
+    color: #333333;
+}
+#three{
+    height: 198px;
+    width: 365px;
+    float: left;
+}
+.wen2{
+    height: 91px;
+    width: 360px;
+    position: relative;
+    top: 62px;
+}
+.wen2 p{
+  font-size: 13px;
+  color: #333333;
+}
+
+.content{
+	height: 201px;
+	width: 682px
+}
+.content div{
+	margin-top: 22px;
+    margin-bottom: 22px;
+}
+.content div p{
+	font-size: 13px;
+	color: #666666;
+}
+
+.comment{
+    height: 170px;
+    width: 682px;
+    margin-top: 12px;
+    border-bottom: 1px dashed #dddddd;
+
+}
+#first{
+	height: 172px;
+	width: 682px;
+}
+.null1{
+	margin-top: 11px;
+    height: 173px;
+    width: 682px;
+}
+.picture1{
+	width: 85px;
+	height: 160px;
+	float: left;
+}
+.text1{
+	height: 164px;
+	width: 600px;
+    margin-left:85px;
+}
+.text1 p{
+	font-size: 13px;
+	color: #666666;
+}
+#second{
+	height: 150px;
+	width: 682px;
+}
+.null2{
+    margin-top: 11px;
+    height: 173px;
+    width: 682px;
+}
+.text2{
+	height: 145px;
+	width: 600px;
+    margin-left:85px;
+}
+.text2 p{
+	font-size: 13px;
+	color: #666666;
+}
+#last{
+    height: 235px;
+    width: 960px;
+    position: relative;
+    top:-150px;
+
+}
+.num{
+	height: 42px;
+	width: 712px;
+	background-color: #a5ddfe;	
+    
+  
+}
+.blank{
+	height: 41px;
+	width: 712px;
+    background-color: #dddddd;
+    margin-top: 20px;
+    
+
+}
+.ping{
+    height: 34px;
+    width: 712px;
+    background-color: #ffe035;
+     margin-bottom: 20px;
+ 
+}
+.right{
+    float: right;
+    width: 256px;
+    height: 1010px;
+}
+
+.nei{
+	padding-top: 29px;
+}
+.no{
+	height: 0px;
+	width: 252px;
+	border: 1px;
+	border-style:solid;
+    border-color:#efefef;
+    width: 252px;
+}
+#i{
+	height: 83px;
+	width: 255px;
+	padding-top:8px;
+}
+
+.p{
+	float: left;
+	width: 74px;
+	height: 73px;
+}
+.o{
+	width: 180px;
+	height: 73px;
+	float: right;
+}
+.o p {
+	font-size: 13px;
+	color: #666666;
+}
+
+
+
+.bookabout p{
+    line-height: 22px;
+    font-size: 13px;
+}
+.content p{
+    line-height: 30px;
+    font-size: 13px;
+     text-indent:30px;
+}
+
+.pp p{
+    line-height: 30px;
+    font-size: 13px;
+}
+#zan {
+    width: 680px;
+    height: 760px;
+    float: left;
+}
+#zan a{
+    color: #596ebb;
+}
+.right a{
+    color: #ff894f;
+    font-size: 13px;
+}
+.huifu1{
+    height: 16px;
+    width: 600px;
+    background-color: #efefef;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.huifu2{
+    height: 16px;
+    width: 600px;
+    background-color: #efefef;
+    margin-top: 10px;
+}
+.huifu3{
+    height: 16px;
+    width: 600px;
+    background-color: #efefef;
+    margin-top: 10px;
+}
+#pageButton {
+    float: left;
+    width: 400px;
+    height: 33px;
+    margin-top: 20px;
+}
+.page {
+    width: 33px;
+    height: 33px;
+    float: left;
+    margin-left: 20px;
+    background-color: #dddddd;
+    color: #000;
+    font-size: 12px;
+    line-height: 33px;
+    text-align: center;
+}
+#pageButton a:hover .page{
+    background-color: #999999;
+    color: #fff;
+}
+#firstPage {
+    margin-left: 80px;
+}
+#pageButton p {
+    float: left;
+    padding-left: 10px;
+}
+#nextPage {
+    width: 104px;
+    height: 33px;
+    float: right;
+    /*margin-right: 20px;*/
+    margin-top: 20px;
+    background-color: #dddddd;
+    color: #000;
+    font-size: 15px;
+    line-height: 33px;
+    text-align: center;
+}
+#nextPage:hover {
+    background-color: #999999;
+    color: #fff;
+}
+#discuss {
+    width: 104px;
+    height: 33px;
+    float: right;
+    /*margin-right: 20px;*/
+    margin-top: 20px;
+    background-color: #dddddd;
+    color: #000;
+    font-size: 15px;
+    line-height: 33px;
+    text-align: center;
+}
+#discuss:hover {
+    background-color: #999999;
+    color: #fff;
+}
+#textarea {
+    width: 680px;
+    height: 38px;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    margin-top: 30px;
+}

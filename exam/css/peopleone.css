@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Microsoft Yahei";
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../icon/iconfont.eot'); /* IE9*/
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:50px;
+    font-style:normal;
+    color: #fff;
+    margin-left: 20px;
+    float: left;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#footer {
+    width: 100%;
+    height: 167px;
+    background-color: #333333;
+}
+#footMain {
+    width: 954px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+#contact {
+    width: 360px;
+    height: inherit;
+    float: left;
+}
+#contact a {
+    font-size: 13px;
+    line-height: 27px;
+    color: #999999;
+}
+#contact a:hover {
+    color: #fff;
+}
+#footIcon {
+    float: left;
+    width: 215px;
+    height: 50px;
+}
+#addition {
+    width: 325px;
+    height: inherit;
+    /*margin-left: 60px;*/
+    float: right;
+}
+#addition p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #999999;
+}
+#container {
+    width: 100%;
+    height: 790px;
+}
+
+
+#head{
+    height: 130px;
+    width: 990px;
+    margin: 0 auto;
+}
+
+#headF{
+    float: right;
+    width: 600px;
+    height: 46px;
+    margin-top: 35px;
+
+}
+#headF div {
+    float: left;
+    
+    width: 200px;
+    height: 46px;
+
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+}
+#headF{
+    background-color:#dddddd;
+}
+#headF div:hover {
+    background-color: #999999;
+    color: #ffffff;
+}
+
+#headF div{
+    color: #333333;
+}
+#headT{
+    width: 63px;
+    height: 17px;
+    float: right;
+    margin-right: 538px;
+    margin-top: 17px;
+}
+#headT p{
+    font-size: 5px;
+}
+
+#main{
+    width: 910px;
+    height: 640px;
+    margin: 0 auto;
+    
+}
+#leftmain{
+    width: 304px;
+    height: 640px;
+    float: left;
+}
+#left{
+    width: 304px;
+    height: 452px;
+    float: left;
+    box-shadow: 0 0 25px #f8f8f8;  
+}
+.picm{
+    width: 94px;
+    height: 94px;
+    margin:0 auto;
+    margin-top:88px;
+}
+.texto{
+    width: 211px;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 29px;
+
+}
+.texto p{
+    text-align: center;
+}
+.cun{
+    font-size: 18px;
+}
+.yi{
+    font-size: 15px;
+    letter-spacing:-1px;
+}
+.texto div p{
+    font-size: 1px;
+    margin: 0 auto;
+}
+.texto div{
+    margin: 0 auto;
+    margin-top:22px;
+    width: 135px;
+    height:78px;
+}
+
+
+#right{
+    width: 611px;
+    height: 640px;
+     position: absolute;
+     left: 580px;
+   /* position: relative;
+    left: 304px;
+   /* background-color: #332f21;*/
+}
+.picf{
+    width: 546px;
+    height: 338px;
+     float: right;
+    /*position:relative;
+    left: 73px;
+    top: -452px;*/
+
+    box-shadow: 0 0 25px #f8f8f8;
+}
+.picff{
+    width: 480px;
+    height: 270px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 30px 34px 38px 32px;
+}
+.maT p{
+    font-size: 5px;
+}
+.maT{
+    width: 588px;
+    height: 28px;
+    margin-top: 28px;
+    float: right;
+}
+.txett{
+    width: 546px;
+    height: 200px;
+     float: right;
+    /*float: right;
+    position: relative;
+    top: -390px;*/
+    box-shadow: 0 0 25px #f8f8f8;
+}
+.bs{
+    font-size: 16px;
+    color: #3e70af;
+    margin-bottom: 20px;
+}
+.txetA{
+    height: 136px;
+    width: 408px;
+    margin: 30px 76px 34px 64px;
+}
+.texta{
+    font-size: 10px;
+    line-height:25px;
+    letter-spacing:-0.2px;
+}

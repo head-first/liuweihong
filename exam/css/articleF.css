@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Microsoft Yahei";
+}
+a {
+    color: #000;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../icon/iconfont.eot'); /* IE9*/
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:50px;
+    font-style:normal;
+    color: #fff;
+    margin-left: 20px;
+    float: left;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+#all {
+    margin: 0 auto;
+}
+#header {
+    width: 100%;
+    height: 85px;
+    box-shadow: 0 0 7px #C6C6C6;
+}
+#headerDiv {
+    margin: 0 auto;
+    width: 954px;
+    height: 85px;
+}
+#logo {
+    float: left;
+    margin-top: 28px;
+    width: 139px;
+    height: 33px;
+}
+#logOrSign {
+    width: 600px;
+    height: 14px;
+    float: right;
+    margin-top: 10px;
+}
+#login {
+    float: right;
+    font-size: 14px;
+    font-weight: 100;
+    color: #999999;
+}
+#login a {
+    font-size: 14px;
+    color: #999999;
+    font-weight: 100;
+}
+#login a:hover {
+    color: red;
+}
+#headA {
+    float: right;
+    width: 600px;
+    height: 27px;
+    margin-top: 19px;
+}
+#headA div {
+    float: left;
+    margin-left: 20px;
+    
+    height: 27px;
+
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+#headA div:hover {
+    background-color: #43be7a;
+    color: #fff;
+}
+#index,
+#photo,
+#video,
+#yuanwei,
+#article {
+    color: #43be7a;
+    width: 76px;
+}
+#book {
+    width: 100px;
+    color: #43be7a;
+}
+#footer {
+    width: 100%;
+    height: 167px;
+    background-color: #333333;
+}
+#footMain {
+    width: 954px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+#contact {
+    width: 360px;
+    height: inherit;
+    float: left;
+}
+#contact a {
+    font-size: 13px;
+    line-height: 27px;
+    color: #999999;
+}
+#contact a:hover {
+    color: #fff;
+}
+#footIcon {
+    float: left;
+    width: 215px;
+    height: 50px;
+}
+#addition {
+    width: 325px;
+    height: inherit;
+    /*margin-left: 60px;*/
+    float: right;
+}
+#addition p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #999999;
+}
+#container {
+    width: 921px;
+    height: 2000px;
+    margin: 0 auto;
+}
+.title {
+    width: 420px;
+    height: 69px;
+    float: left;
+    /*margin-left: 471px;*/
+    padding-top: 32px;
+}
+.all-down {
+    width: inherit;
+    height: 998px;
+    margin: 0 auto;
+}
+.a {
+    font-family: 宋体;
+    font-size: 21px;
+    color: #ff894f;
+    font-weight:900;
+}
+.b {
+    font-size: 15px;
+    font-family: 宋体;
+    color: #999999;
+}
+.word {
+    /*margin:-28px 472px;*/
+    width: 915px;
+    height: 112px;
+    float: left;
+    clear: left;
+}
+.pic {
+    width:537px; 
+    height:274px;
+    /*margin-top: 102px;*/
+    /*float: left;*/
+    padding-top: 281px;
+    /*clear: left;*/
+    /*margin:102px 121px 80px 471px;*/
+}
+.word2 {
+    /*margin:-72px 469px;*/
+    width: 915px;
+    height: 470px;
+}
+.time {
+    float: right;
+    color: #999999;
+}
+.line1 {
+    width: 929px;
+    height: 2px;
+    background-color: #efefef;
+    margin: 0 auto;
+    margin-top: 259px;
+    margin-bottom: 40px;
+    /*margin: 259px 460px;*/
+}
+.comment {
+    width: 929px;
+    height: 197px;
+    margin: 10px auto;
+    border-bottom: 1px dashed #efefef;
+    /*margin: 10px 10px;*/
+}
+.image {
+    width: 65px;
+    height: 65px;
+    margin-top: 21px;
+    float: left;
+    /*margin: -204px 451px;*/
+}
+.user {
+    width: 841px;
+    height: 142px;
+    float: right;
+    /*margin-left: 548px;*/
+    margin-top: 10px;
+}
+.name1 {
+    color: #596ebb;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+.comment1 {
+    color: #333333;
+    margin: -19px 1px;
+    font-size: 12px;
+    line-height: 25px;
+}
+.userWord {
+    width: 842px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.responde {
+    width: 841px;
+    height: 20px;
+    margin-top: 10px;
+    /*margin: -47px 550px;*/
+    background-color: #efefef;
+}
+.responde p {
+    font-size: 12px;
+}
+.responde span {
+    font-size: 14px;
+}
+.name2 {
+    color:#596ebb; 
+}
+.other {
+    width: 185px;
+    height: 30px;
+    float: right;
+    /*margin-bottom: 10px;*/
+    position: relative;
+    bottom: -10px;
+    /*margin:75px -468px;*/
+}
+.other a,
+.other2 a {
+    color: #999999;
+}
+.p {
+    color: #999999;
+    font-size: 18px;
+    font-weight: 200;
+}
+.sur {
+    margin-left: 10px;
+}
+.line2 {
+    width: 929px;
+    height: 1px;
+    background-color: #efefef;
+    /*margin: 110px 456px;*/
+    border: 1px dashed #CACACA;
+}
+.responde2 {
+    width: 841px;
+    height: 20px;
+    margin: -47px 550px;
+    background-color: #efefef;
+}
+.image2 {
+    width: 65px;
+    height: 65px;
+    /*margin: 100px -38px -206px 462px;*/
+}
+.other2 {
+    width: 185px;
+    height: 30px;
+    float: right;
+    /*margin:87px -487px;*/
+}
+.line3 {
+    width: 929px;
+    height: 1px;
+    background-color: #efefef;
+    margin: 19px -758px;
+    border: 1px dashed #CACACA;
+}
+#pageButton {
+    float: left;
+    width: 700px;
+    height: 33px;
+    margin-top: 20px;
+}
+.page {
+    width: 33px;
+    height: 33px;
+    float: left;
+    margin-left: 20px;
+    background-color: #dddddd;
+    color: #000;
+    font-size: 12px;
+    line-height: 33px;
+    text-align: center;
+}
+#pageButton a:hover .page{
+    background-color: #999999;
+    color: #fff;
+}
+#firstPage {
+    margin-left: 80px;
+}
+#pageButton p {
+    float: left;
+    padding-left: 10px;
+}
+#nextPage {
+    width: 104px;
+    height: 33px;
+    float: right;
+    /*margin-right: 20px;*/
+    margin-top: 20px;
+    background-color: #dddddd;
+    color: #000;
+    font-size: 15px;
+    line-height: 33px;
+    text-align: center;
+}
+#nextPage:hover {
+    background-color: #999999;
+    color: #fff;
+}
+#discuss {
+    width: 104px;
+    height: 33px;
+    float: right;
+    /*margin-right: 20px;*/
+    margin-top: 20px;
+    background-color: #dddddd;
+    color: #000;
+    font-size: 15px;
+    line-height: 33px;
+    text-align: center;
+}
+#discuss:hover {
+    background-color: #999999;
+    color: #fff;
+}
+#textarea {
+    width: 925px;
+    height: 38px;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    margin-top: 30px;
+}
+.link {
+    margin-left: 10px;
+    padding: 11px 13px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #dddddd;
+    border: 1px solid black;
+    font-size: 16px;
+}
+.link2 {
+
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: #dddddd;
+    float: right;
+    margin:-5px;
+    line-height: 40px;
+    text-align: center;
+}
+.link3 {
+    margin-left: 10px;
+    padding: 11px 13px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #999999;
+    border: 1px solid black;
+    font-size: 16px;
+}
+.write {
+    /*margin-left: 10word61px;*/
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    float: right;
+}
+.link4 {
+
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: #dddddd;
+    float: right;
+    margin:195px -147px;
+    line-height: 40px;
+    text-align: center;
+}

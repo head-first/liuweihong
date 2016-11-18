@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Microsoft Yahei";
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../icon/iconfont.eot'); /* IE9*/
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:50px;
+    font-style:normal;
+    color: #fff;
+    margin-left: 20px;
+    float: left;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+#all {
+    margin: 0 auto;
+}
+#header {
+    width: 100%;
+    height: 85px;
+    box-shadow: 0 0 7px #C6C6C6;
+}
+#headerDiv {
+    margin: 0 auto;
+    width: 954px;
+    height: 85px;
+}
+#logo {
+    float: left;
+    margin-top: 28px;
+    width: 139px;
+    height: 33px;
+}
+#logOrSign {
+    width: 600px;
+    height: 14px;
+    float: right;
+    margin-top: 10px;
+}
+#login {
+    float: right;
+    font-size: 14px;
+    font-weight: 100;
+    color: #999999;
+}
+#login a {
+    font-size: 14px;
+    color: #999999;
+    font-weight: 100;
+}
+#login a:hover {
+    color: red;
+}
+#headA {
+    float: right;
+    width: 600px;
+    height: 27px;
+    margin-top: 19px;
+}
+#headA div {
+    float: left;
+    margin-left: 20px;
+    
+    height: 27px;
+
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+#headA div:hover {
+    background-color: #43be7a;
+    color: #fff;
+}
+#index,
+#photo,
+#video,
+#yuanwei {
+    color: #43be7a;
+    width: 76px;
+}
+#article {
+    background-color: #43be7a;
+    color: #fff;
+    width: 76px;
+}
+#book {
+    width: 100px;
+    color: #43be7a;
+}
+#footer {
+    width: 100%;
+    height: 167px;
+    background-color: #333333;
+}
+#footMain {
+    width: 954px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+#contact {
+    width: 360px;
+    height: inherit;
+    float: left;
+}
+#contact a {
+    font-size: 13px;
+    line-height: 27px;
+    color: #999999;
+}
+#contact a:hover {
+    color: #fff;
+}
+#footIcon {
+    float: left;
+    width: 215px;
+    height: 50px;
+}
+#addition {
+    width: 325px;
+    height: inherit;
+    /*margin-left: 60px;*/
+    float: right;
+}
+#addition p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #999999;
+}
+#container {
+    width: 957px;
+    height: 1425px;
+    margin: 0 auto;
+}
+.navigation {
+    width: 957px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-bottom: 1px solid #efefef;
+}
+#recommondate {
+    width: 90px;
+    height: 35px;
+    float: left;
+    border-bottom: 1px solid #ff894f;
+}
+#literature {
+    width: 60px;
+    height: 35px;
+    float: left;
+    border-bottom: 1px solid #ff894f;
+}
+.navigation p {
+    color: #ff894f;
+    font-size: 16px;
+    line-height: 35px;
+}
+.navigation i {
+    font-size: 22px;
+    color: #ff894f;
+    margin: 0;
+}
+#recommondation {
+    width: 957px;
+    height: 302px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#recomLeft {
+    width: 652px;
+    height: 302px;
+    margin-top: 11px;
+    float: left;
+}
+#wrap {
+    width: 652px;
+    height: 302px;
+    position: relative;
+    overflow: hidden;
+}
+#ppt {
+    width: 652px;
+    height: 302px;
+    position: absolute;
+    transition: all 0.5s ease-in 0s;
+}
+#ppt div {
+    width: 652px;
+    height: 302px;
+    float: left;
+    text-align: center;
+}
+#ppt div img {
+    width: 652px;
+    height: 302px;
+}
+#banner {
+    width: inherit;
+    height: 40px;
+    margin-top: -40px;
+    background: #000;
+    opacity: .9;
+    filter : alpha(opacity=90);
+}
+#banner p {
+    float: left;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+}
+#button {
+    width: 85px;
+    height: 12px;
+    margin-top: 15px;
+    float: right;
+    margin-right: 10px;
+    opacity: 1;
+}
+#button div {
+    float: left;
+    margin-left: 10px;
+}
+.btn {
+    width: 10px;
+    height: 10px;
+    margin-top: 1px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.current {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#recomRight {
+    width: 290px;
+    height: 302px;
+    margin-top: 4px;
+    float: right;
+}
+#recomRight a {
+    float: left;
+    clear: left;
+    font-size: 15px;
+    line-height: 26px;
+    color: #333333;
+}
+#recomRight span {
+    color: #ff7b52;
+}
+#recomRight a:hover {
+    color: #ff7b52;
+}
+#bar {
+    width: inherit;
+    height: 35px;
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+}
+#bar a {
+    float: left;
+    font-size: 13px;
+    line-height: 35px;
+    color: #333333;;
+}
+#bar a:nth-child(n + 2) {
+    color: #666666;
+    padding-left: 10px;
+}
+#bar a:hover {
+    color: #333333;
+}
+.letter {
+    width: 921px;
+    height: 171px;
+    float: left;
+    border-top: 1px solid #efefef;
+}
+#firstLetter {
+    border: none;
+    height: 151px;
+}
+.letterDiv {
+    width: inherit;
+    height: 132px;
+    margin-top: 20px;
+}
+#firstLetterDiv {
+    margin: 0;
+}
+.letterLeft {
+    float: left;
+    width: 220px;
+    height: inherit;
+}
+.letterRight {
+    width: 686px;
+    height: inherit;
+    float: right;
+}
+.letterRight a {
+    float: left;
+    font-size: 12px;
+    color: #999999;
+}
+.letterRight span {
+    font-size: 16px;
+    color: #ff894f;
+}
+.letterRight span:hover {
+    color: red;
+}
+.letterRight p {
+    float: left;
+    color: #333333;
+    font-size: 13px;
+    line-height: 25px;
+}
+.love {
+    float: right;
+    width: 130px;
+    height: 20px;
+}
+.love a {
+    font-size: 12px;
+    line-height: 20px;
+    color: #555555;
+    float: left;
+}
+.love i {
+    font-size: 20px;
+    color: #555555;
+}
+.love a:hover,
+.love a:hover i {
+    color: #ff894f;
+}
+#pageButton {
+    float: left;
+    width: 700px;
+    height: 33px;
+    margin-top: 20px;
+}
+.page {
+    width: 33px;
+    height: 33px;
+    float: left;
+    margin-left: 20px;
+    background-color: #dddddd;
+    color: #000;
+    font-size: 12px;
+    line-height: 33px;
+    text-align: center;
+}
+#pageButton a:hover .page{
+    background-color: #999999;
+    color: #fff;
+}
+#firstPage {
+    margin: 0;
+}
+#pageButton p {
+    float: left;
+    padding-left: 10px;
+
+}
+#nextPage {
+    width: 104px;
+    height: 33px;
+    float: right;
+    margin-right: 20px;
+    background-color: #dddddd;
+    color: #000;
+    font-size: 15px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 20px;
+}
+#nextPage:hover {
+    background-color: #999999;
+    color: #fff;
+}
+#toTopDiv {
+    position: fixed;
+    right: 150px;
+    bottom: 150px;
+    width: 44px;
+    height: 44px;
+}
+#toTop {
+    font-size: 44px;
+    color: #dddddd
+}
+#toTop:hover {
+    color: #999999;
+}

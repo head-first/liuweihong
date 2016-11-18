@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Microsoft Yahei";
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../icon/iconfont.eot'); /* IE9*/
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:50px;
+    font-style:normal;
+    color: #fff;
+    margin-left: 20px;
+    float: left;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+#all {
+    margin: 0 auto;
+}
+#header {
+    width: 100%;
+    height: 85px;
+    box-shadow: 0 0 7px #C6C6C6;
+}
+#headerDiv {
+    margin: 0 auto;
+    width: 954px;
+    height: 85px;
+}
+#logo {
+    float: left;
+    margin-top: 28px;
+    width: 139px;
+    height: 33px;
+}
+#logOrSign {
+    width: 600px;
+    height: 14px;
+    float: right;
+    margin-top: 10px;
+}
+#login {
+    float: right;
+    font-size: 14px;
+    font-weight: 100;
+    color: #999999;
+}
+#login a {
+    font-size: 14px;
+    color: #999999;
+    font-weight: 100;
+}
+#login a:hover {
+    color: red;
+}
+#headA {
+    float: right;
+    width: 600px;
+    height: 27px;
+    margin-top: 19px;
+}
+#headA div {
+    float: left;
+    margin-left: 20px;
+    
+    height: 27px;
+
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+#headA div:hover {
+    background-color: #43be7a;
+    color: #fff;
+}
+#article,
+#index,
+#photo,
+#video,
+#yuanwei {
+    color: #43be7a;
+    width: 76px;
+}
+#book {
+    width: 100px;
+    background-color: #43be7a;
+    color: #fff;
+}
+#footer {
+    width: 100%;
+    height: 167px;
+    background-color: #333333;
+}
+#footMain {
+    width: 954px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+#contact {
+    width: 360px;
+    height: inherit;
+    float: left;
+}
+#contact a {
+    font-size: 13px;
+    line-height: 27px;
+    color: #999999;
+}
+#contact a:hover {
+    color: #fff;
+}
+#footIcon {
+    float: left;
+    width: 215px;
+    height: 50px;
+}
+#addition {
+    width: 325px;
+    height: inherit;
+    /*margin-left: 60px;*/
+    float: right;
+}
+#addition p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #999999;
+}
+#container {
+    width: 960px;
+    height: 1006px;
+    margin: 0 auto;
+}
+.title {
+    width: 1442px;
+    height: 127px;
+}
+.title p {
+    margin: 48px 469px;
+    font-family: 宋体;
+    color: #ff894f;
+    font-size: 23px;
+    font-weight: 900;
+}
+.choose {
+    /*margin: 48px 455px;*/
+    width: 400px;
+    height:27px;
+    margin-top: 20px;
+}
+.choose div {
+        float: left;
+        margin-left: 20px;
+        height: 27px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 25px;
+}
+#firstDiv {
+    margin-left: 0;
+}
+.choose div:hover {
+    background-color: #42B9AD;
+    color: #fff;
+}
+.choose a {
+    margin: 5px 10px;
+    background-color: #43be7a;
+    color: #fff;
+}
+.down {
+    width: 665px;
+    height: 771px;
+    float: left;
+    clear: left;
+}
+.img1 {
+    /*margin-left: 470px;*/
+    height: 158px;
+    width: 665px;
+    cursor: pointer;
+}
+.img1 ul li {
+    margin-top: 41px;
+}
+.img1 img:nth-child(n + 2) {
+    margin-left: 18px;
+}
+
+.movie {
+    background-color: #43be7a;
+    color: #fff;
+    width: 67px;
+    height: 10px;
+    float: left;
+}
+.hot {
+    background-color: #43be7a;
+    color: #fff;
+    width: 67px;
+    height: 10px;
+    margin: 0px 10px;
+}
+.upload {
+    background-color: #43be7a;
+    color: #fff;
+    width: 80px;
+    height: 10px;
+    margin: 1px 10px;
+}
+.link {
+    margin-left: 10px;
+    padding: 11px 13px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #dddddd;
+    border: 1px solid black;
+    font-size: 16px;
+}
+.link2 {
+
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: #dddddd;
+    float: right;
+    margin:-12px -124px;
+    line-height: 40px;
+    text-align: center;
+}
+.link3 {
+    margin-left: 466px;
+    padding: 11px 13px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #999999;
+    border: 1px solid black;
+    font-size: 16px;
+}
+.line {
+    width: 211px;
+    height: 1px;
+    background-color: #efefef;
+    margin: 19px 2px;
+    border: 1px solid #efefef;
+}
+.navigation {
+    width: 957px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-bottom: 1px solid #efefef;
+}
+#recommondate {
+    width: 93px;
+    height: 35px;
+    float: left;
+    border-bottom: 1px solid #ff894f;
+}
+.navigation p {
+    color: #ff894f;
+    font-size: 16px;
+    line-height: 35px;
+}
+.navigation i {
+    font-size: 22px;
+    color: #ff894f;
+    margin: 0;
+}
+#pageButton {
+    float: left;
+    width: 400px;
+    height: 33px;
+    margin-top: 20px;
+}
+.page {
+    width: 33px;
+    height: 33px;
+    float: left;
+    margin-left: 20px;
+    background-color: #dddddd;
+    color: #000;
+    font-size: 12px;
+    line-height: 33px;
+    text-align: center;
+}
+#pageButton a:hover .page{
+    background-color: #999999;
+    color: #fff;
+}
+#firstPage {
+    margin: 0;
+}
+#pageButton p {
+    float: left;
+    padding-left: 10px;
+
+}
+#nextPage {
+    width: 104px;
+    height: 33px;
+    float: right;
+    margin-right: 20px;
+    background-color: #dddddd;
+    color: #000;
+    font-size: 15px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 20px;
+}
+#nextPage:hover {
+    background-color: #999999;
+    color: #fff;
+}
+.right {
+    width: 278px;
+    height: 335px;
+    float: right;
+    margin-top: 35px;
+    /*margin: -808px -551px;*/
+}
+h2 {
+    float: left;
+    font-size: 14px;
+}
+.mark {
+    width: 278px;
+    height: 50px;
+    margin: 10px 0;
+}
+.mark p {
+    font-size: 14px;
+    line-height: 26px;
+    float: left;
+    clear: left;
+    color: #ff894f;
+}
+.mark a {
+    float: left;
+    padding-left: 20px;
+    color: #666666;
+    font-size: 12px;
+    line-height: 26px;
+}
+.mark a:hover {
+    color: #ff894f;
+}
+hr {
+    width: 278px;
+    height: 1px;
+    border: none;
+    background-color: #dddddd;
+}
+#manage,
+#manage1 {
+    padding-left: 0;
+}

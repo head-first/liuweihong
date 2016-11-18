@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Microsoft Yahei";
+}
+
+     body{
+         	width: 100%;
+         	height: 614;
+         	
+         }
+        .center{
+        	margin: 0 auto;
+        	height: 614px;
+        	width:841px;
+         }
+         .one{
+         	height: 539px;
+         	width: 841px;
+         }
+
+
+         .two{
+         	height: 77px;
+         	width:841px ;
+         	margin: 0 auto;
+         }
+         .two p{
+         	color: #a3a3a3;
+         	
+         }
+         .text{
+         	text-align: center;
+         }
+         .one a:hover div {
+            opacity: .5;
+         }
+         .title{
+         	height: 116px;
+         	width: 158px;
+         	position: relative;
+         	left: 341px;
+         	top:38px;
+         }
+         .word1{
+         	position: relative;
+         	left: 34px;
+         	height: 90px;
+         	width: 94px;
+         }
+         .title p{
+         	text-align: center;
+            color:#c2c2c2;
+            
+         }
+         .photo{
+         	height: 200px;
+         	width: 200px;
+         	position: absolute;
+         	left: 370px;
+         	top: 85px;
+         }
+         .photo span{
+         	color: #ffffff;
+         	position: absolute;
+            top: 88px;
+            left: 61px;
+            
+         }
+        
+         .original{
+         	height: 200px;
+         	width: 200px;
+         	position: absolute;
+         	left: 793px;
+         	top: 85px;
+         }
+         .original span{
+         	color: #ffffff;
+         	position: absolute;
+            top: 88px;
+            left: 68px;
+            
+        }
+         .literature{
+         	height: 200px;
+         	width: 200px;
+         	position: absolute;
+         	left: 267px;
+         	top: 190px;
+         }
+         .literature span{
+         	color: #ffffff;
+         	position: absolute;
+            top: 88px;
+            left: 64px;
+            
+        }
+         .read{
+         	height: 200px;
+         	width: 200px;
+         	position: absolute;
+         	left: 475px;
+         	top: 190px;
+         }
+          .read span{
+         	color: #ffffff;
+         	position: absolute;
+            top: 88px;
+            left: 64px;
+            
+        }
+         .film{
+         	height: 200px;
+         	width: 200px;
+         	position: absolute;
+         	left: 688px;
+         	top: 190px;
+         }
+         .film span{
+         	color: #ffffff;
+         	position: absolute;
+            top: 88px;
+            left: 64px;
+            
+        }
+         .green{
+         	height: 200px;
+         	width: 200px;
+         	position: absolute;
+         	left: 899px;
+         	top: 190px;
+         }
+         .oringe{
+         	height: 200px;
+         	width: 200px;
+         	position: absolute;
+         	left: 370px;
+         	top: 298px;
+         }
+         .red{
+         	height: 200px;
+         	width: 200px;
+         	position: absolute;
+         	left: 582px;
+         	top: 298px;
+         }
+         .red span{
+         	color: #ffffff;
+         	position: absolute;
+            top: 88px;
+            left: 64px;
+           
+        }
+         .yellow{
+         	height: 200px;
+         	width: 200px;
+         	position: absolute;
+         	left: 793px;
+         	top: 298px;
+         }
