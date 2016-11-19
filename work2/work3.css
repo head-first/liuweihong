@@ -1,0 +1,36 @@
+body{
+	min-width: 600px;
+}
+#box{
+	width:300px;
+	margin:80px;
+	position: relative;
+	left:50%;
+	margin-top: 50%;
+}
+#box1{
+	width:300px;
+	height: 100px;
+	position: relative;
+	left:500px;
+	top:200px;
+}
+#box2{
+	height: 100px;
+	position: relative;
+	left:500px;
+	top:200px;
+}
+#box3{
+	position: relative;
+	left:500px;
+	top:200px;
+}
+p{font-weight: bold;
+  color:black;
+  margin:20px;
+}
+
+button{
+	background-color: rgb(77,180,239);
+}

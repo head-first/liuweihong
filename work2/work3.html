@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>work3.html</title>
+	<link rel="stylesheet" type="text/css" href="work3.css">
+  <script type="text/javascript" src="work3.js" ></script>
+</head>
+<body>
+<script>
+	function examstring(){
+	try
+	{
+	var x=document.getElementById("string").value;
+	var len=x.length;
+	if(len==0) throw"值不为空";
+	if(len<4||len>16) throw"输入字符长度需4~16字符";
+	if(len=>4||len<=16) throw"输入正确";
+    }
+    catch(err)
+    {
+    	var z=document.getElementById("mess");
+    	z.innerHTML=err+".";
+    }
+
+}
+</script>
+
+    <div id=box1>
+    <p>名称
+    <input id="string" type="text">
+    <button type="button" onclick="examstring()">验证</button>
+    <p id="mess"></p>
+    </div>
+    <div id="box2">
+    <p>名称
+     <input id="name" type="text">
+     <button type="button" onclick="examname()">验证</button>
+     <p id="examname"></p>
+    </div>
+    <div id="box3">
+    <p>名称
+    <input id="" type="text">
+    <button type="button">验证</button>
+    </div>
+
+</body>
+</html>
+
